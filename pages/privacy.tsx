@@ -1,0 +1,2 @@
+import Navbar from '@/components/Navbar';
+export default function Privacy(){ return (<div><Navbar /><main className='container'><div className='card' style={{marginTop:20}}><h1>Privacy Policy</h1><p>Last updated: {new Date().toLocaleDateString()}</p><p>Sample privacy policy for MVP. Review with counsel.</p></div></main></div>) }
