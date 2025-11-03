@@ -13,9 +13,9 @@ export default function Navbar(){
         </div>
       </div>
       <nav style={{display:'flex',gap:12,alignItems:'center'}}>
-        <Link href="/terms"><a className="btn ghost">Terms</a></Link>
-        <Link href="/privacy"><a className="btn ghost">Privacy</a></Link>
-        <Link href="/dashboard"><a className="btn">Dashboard</a></Link>
+        <Link href="/terms">Terms</Link>
+        <Link href="/privacy">Privacy</Link>
+        <Link href="/dashboard">Dashboard</Link>
       </nav>
     </header>
   )
