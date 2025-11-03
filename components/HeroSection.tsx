@@ -21,7 +21,7 @@ export default function HeroSection(){
             <div className="oauth-btn" onClick={()=>oauth('Email')}>Email</div>
           </div>
         </div>
-        <a className="preview-link" onClick={()=>router.push('/dashboard?demo=1')}>Preview the full dashboard without signing up →</a>
+        Preview the full dashboard without signing up →
       </div>
       <div className="right card" style={{width:380}}>
         <h3 style={{margin:0}}>How it works</h3>
