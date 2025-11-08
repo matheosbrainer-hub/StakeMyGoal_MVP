@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#071428;
+  --card:#0f1724;
+  --muted:#94a3b8;
+  --accent:#06b6d4;
+  --accent-2:#7c3aed;
+  --glass: rgba(255,255,255,0.03);
+  --text:#e6eef8;
+}
+html,body,#__next{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#02101b);color:var(--text);font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;}
+.container{max-width:1100px;margin:0 auto;padding:28px;}
+.header{display:flex;align-items:center;justify-content:space-between;padding:12px 0;}
+.logo{display:flex;align-items:center;gap:12px;}
+.logo svg{width:36px;height:36px;}
+.btn{background:linear-gradient(90deg,var(--accent-2),var(--accent));color:white;padding:10px 14px;border-radius:10px;border:none;cursor:pointer;font-weight:700;box-shadow:0 6px 18px rgba(2,6,23,0.6);}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:14px;box-shadow: 0 6px 30px rgba(2,6,23,0.6);}
+.input, textarea, select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--text)}
+.badge{display:inline-block;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:700;color:var(--accent-2)}
+.muted{color:var(--muted)}
